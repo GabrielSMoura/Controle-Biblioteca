@@ -1,0 +1,138 @@
+/*fonte importada do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F7F7;
+}
+
+body p {
+    text-align: center;
+}
+
+img {
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+}
+
+.senai-roberto_simonsen p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+hr {
+    border: none; /* Remove a linha padrão */
+    height: 1px; /* Define a altura da linha */
+    background-color: #333; /* Cor de fundo da linha */
+    margin-top: 8px; /* Adiciona margem acima e abaixo da linha */
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f2f2f2; /* Cor de fundo do formulário */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+form p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Espaço extra entre os campos */
+}
+
+input[type="text"] {
+    width: 45%; /* Tamanho reduzido */
+    padding: 10px;
+    margin-right: 10px; /* Espaço entre os campos */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+input[type="text"]::placeholder {
+    text-align: center; /* Alinhar horizontalmente ao centro do placeholder */
+}
+
+button {
+    width: 24%; /* Botões ocupam 100% da largura do contêiner pai */
+    padding: 10px; /* Padding uniforme em todos os lados */
+    margin: 10px 0; /* Espaçamento vertical entre os botões */
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Tamanho da fonte */
+    
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #535353; /* Cor de fundo quando hover */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+}
+
+button.excluir:hover {
+    background-color: #b92929; /* Cor de fundo quando hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+}
+
+.table-container {
+    width: 100%;
+    max-height: 300px; /* Defina a altura máxima desejada antes da barra de rolagem aparecer */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical quando necessário */
+}
+
+table {
+    width: 62%;
+    border-collapse: collapse;
+    margin: 15px auto;
+    background-color: #f2f2f2; /* Cor de fundo */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+}
+
+/* Estilo para linhas ímpares */
+tr:nth-child(odd) {
+    background-color: #ddd; /* Cor de fundo das linhas ímpares */
+}
+
+/* Estilo para linhas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
+
+/* Hover sobre as linhas */
+tr:hover {
+    background-color: #ccc; /* Cor de fundo quando hover */
+}
+

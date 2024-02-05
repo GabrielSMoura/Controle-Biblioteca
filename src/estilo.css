@@ -1,0 +1,126 @@
+/* fonte importada do google fonts - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: url(img/biblioteca-senai.jfif) no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px)
+}
+
+header img {
+    width: 250px;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+header p {
+    font-size: 12px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.container .form {
+  padding: 2rem;
+}
+
+.form header {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form input {
+   height: 60px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+}
+
+.form input:focus {
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.form input.button {
+  color: #fff;
+  background: #272627;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.form input.button:hover {
+  background: #404242;
+}
+
+/* css antigo - prototipo 1 (apagar se caso não for usar mais) */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #E1D7C6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} 
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+.form-container img {
+    width: 240px;
+}
+
+.form-input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+}
+.form-input label {
+    position: absolute;
+    bottom: 20px;
+}
+
+.form-output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+} */
