@@ -9,7 +9,7 @@ Este projeto colaborativo, desenvolvido em PHP e CSS, busca aprimorar a gestão 
 **Interface Amigável:** O design amigável facilita a navegação, tornando o sistema acessível a todos os usuários.
 **Gestão Simplificada:** Contribui para uma gestão eficiente dos materiais na biblioteca, proporcionando organização e controle.
 
-## 📜 História do Sena
+## 📜 História do Senai
 
 O Senai, com mais de sete décadas de história, desempenha um papel crucial na formação de profissionais qualificados para diversos setores da indústria. Inspirados por essa tradição, este projeto busca integrar tecnologia para aprimorar processos educacionais e administrativos.
 
